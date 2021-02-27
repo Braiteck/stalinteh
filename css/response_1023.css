@@ -534,6 +534,44 @@
 
 
 
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .code img
+    {
+        height: 120px;
+    }
+
+    .error_info .title
+    {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .error_info .desc
+    {
+        line-height: 20px;
+    }
+
+    .error_info .links
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .block_title
+    {
+        font-size: 20px;
+
+        margin-bottom: 22px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

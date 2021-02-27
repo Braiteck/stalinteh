@@ -48,7 +48,7 @@
 
     header .search
     {
-        width: 230px;
+        width: 220px;
     }
 
 
@@ -597,6 +597,14 @@
     /*--------------
         Products
     --------------*/
+    .products .block_title
+    {
+        font-size: 22px;
+
+        margin-bottom: 22px;
+    }
+
+
     .products table th
     {
         padding: 12px 15px;
@@ -809,6 +817,89 @@
     .load_more
     {
         margin-top: 30px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .cont
+    {
+        padding-top: 100px;
+    }
+
+
+    .error_info .code
+    {
+        margin-bottom: 30px;
+    }
+
+    .error_info .title
+    {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .error_info .desc
+    {
+        line-height: 22px;
+
+        margin-top: 15px;
+    }
+
+    .error_info .links
+    {
+        margin-top: 25px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form
+    {
+        padding: 43px;
+    }
+
+    .action_form .form .columns
+    {
+        --form_columns_offset: 25px;
+    }
+
+    .action_form .form .line
+    {
+        margin-bottom: 22px;
+    }
+
+    .action_form .form .label
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .action_form .form .bottom .exp
+    {
+        font-size: 14px;
+    }
+
+    .action_form .form .exp .required
+    {
+        font-size: 28px;
+    }
+
+    .action_form .form .bottom
+    {
+        padding-top: 5px;
+    }
+
+    .action_form .form .submit_btn
+    {
+        font-size: 15px;
+
+        height: 46px;
+        padding: 0 25px;
     }
 
 

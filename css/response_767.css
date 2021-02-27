@@ -572,6 +572,14 @@
     /*--------------
         Products
     --------------*/
+    .products .block_title
+    {
+        font-size: 19px;
+
+        margin-bottom: 20px;
+    }
+
+
     .products table
     {
         margin: -15px 0;
@@ -681,6 +689,12 @@
         text-transform: none;
 
         opacity: .6;
+    }
+
+
+    .products .more_link
+    {
+        margin-top: 10px;
     }
 
 
@@ -966,6 +980,96 @@
 
         height: 45px;
         padding: 2px 20px 0;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .cont
+    {
+        padding-top: 80px;
+    }
+
+    .error_info .code
+    {
+        margin-bottom: 25px;
+    }
+
+    .error_info .code img
+    {
+        height: 100px;
+    }
+
+    .error_info .title
+    {
+        font-size: 22px;
+    }
+
+    .error_info .links
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form
+    {
+        padding: 28px;
+    }
+
+    .action_form .title
+    {
+        margin-bottom: 25px;
+    }
+
+    .action_form .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+    .action_form .form .label
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-bottom: 8px;
+    }
+
+    .action_form .form .bottom .exp
+    {
+        font-size: 13px;
+
+        width: calc(100% - 165px);
+        max-width: calc(100% - 165px);
+        padding-left: 20px;
+    }
+
+    .action_form .form .exp .required
+    {
+        font-size: 22px;
+    }
+
+    .action_form .form .submit_btn
+    {
+        font-size: 14px;
+
+        height: 44px;
+        padding: 0 22px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners
+    {
+        padding: 0;
     }
 
 

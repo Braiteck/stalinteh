@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#45a0e8">
+		<meta name="theme-color" content="#45a0e8">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1239.css" media="print, (max-width: 1239px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="cont row">
+							<div class="logo">
+								<img src="images/logo.png" alt="">
+							</div>
+
+							<div class="data">
+								<div class="flex">
+									<div class="search">
+										<form action="">
+											<input type="text" name="" value="" class="input" placeholder="я ищу">
+
+											<button type="submit" class="submit_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+											</button>
+										</form>
+									</div>
+
+									<button class="order_btn modal_link" data-content="#order_modal">отправить заявку</button>
+
+									<button class="callback_btn modal_link" data-content="#callback_modal">Перезвоните мне</button>
+
+									<div class="phone">
+										<a href="tel:+74959891820"><span>+7 (495)</span> 989-1820</a>
+									</div>
+								</div>
+
+								<div class="flex">
+									<nav class="menu">
+										<div class="item">
+											<a href="/">О компании</a>
+										</div>
+
+										<div class="item">
+											<a href="/" class="sub_link">Каталог</a>
+
+											<div class="sub_menu">
+												<div><a href="/">Черный металлопрокат</a></div>
+												<div><a href="/">Нержавеющий металлопрокат</a></div>
+												<div><a href="/">Трубы</a></div>
+												<div><a href="/">Трубопроводная арматура</a></div>
+												<div><a href="/">Листы</a></div>
+												<div><a href="/">Профнастил</a></div>
+												<div><a href="/">Металлоконструкции</a></div>
+												<div><a href="/">Металлоизделия</a></div>
+												<div><a href="/">Металлообработка</a></div>
+											</div>
+										</div>
+
+										<div class="item">
+											<a href="/">Производство</a>
+										</div>
+
+										<div class="item">
+											<a href="#" class="sub_link">Информация</a>
+
+											<div class="sub_menu">
+												<div><a href="/">Оплата и доставка</a></div>
+												<div><a href="/">расчет веса</a></div>
+												<div><a href="/">поставщикам</a></div>
+												<div><a href="/">Авиа и жд</a></div>
+												<div><a href="/">новости</a></div>
+												<div><a href="/">статьи</a></div>
+											</div>
+										</div>
+
+										<div class="item">
+											<a href="/">Контакты</a>
+										</div>
+									</nav>
+
+									<div class="cart">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										<a href="/"><u>Корзина</u> <span>(0)</span></a>
+									</div>
+
+									<div class="email">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<a href="emilto:info@steelintech.ru">info@steelintech.ru</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont">
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+							<img src="images/logo_mini.png" alt="">
+						</a>
+
+						<div class="phone">
+							<a href="tel:+74959891820"><span>+7 (495)</span> 989-1820</a>
+						</div>
+
+						<div class="cart">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+							<a href="/"><u>Корзина</u> <span>(0)</span></a>
+						</div>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<a href="/">Черный металл</a> <span class="sep"></span>
+							<a href="/">Арматура</a> <span class="sep"></span>
+							<span class="current">Катанка</span>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="content_flex mini block">
+					<div class="cont row">
+						<aside>
+							<div class="cats">
+								<div class="cat">
+									<div class="main">
+										<a href="/">Арматура</a>
+										<div class="arr active"></div>
+									</div>
+
+									<div class="sub_cats" style="display: block;">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Балка</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Швеллер</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Уголок</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Труба круглая</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Труба профильная</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Лист</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">ПВЛ</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Полоса</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Профнастил</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Гладкий лист</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Сетка</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Квадрат</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Круг</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+
+								<div class="cat">
+									<div class="main">
+										<a href="/">Шестигранник</a>
+										<div class="arr"></div>
+									</div>
+
+									<div class="sub_cats">
+										<div><a href="/">Арматура строительная А3</a></div>
+										<div><a href="/">Арматура гладкая А1</a></div>
+										<div><a class="active">Катанка</a></div>
+									</div>
+								</div>
+							</div>
+						</aside>
+
+
+						<section class="content">
+							<section class="product_info">
+								<div class="head">
+									<h1 class="product_name">Арматура стальная</h1>
+								</div>
+
+
+								<div class="data">
+									<div class="images">
+										<div class="big">
+											<div class="img">
+												<img data-src="images/tmp/product_img2.jpg" alt="" class="lozad">
+											</div>
+										</div>
+									</div>
+
+									<div class="info">
+										<div class="desc text_block">
+											<p><strong>Арматура</strong> – это вид сортового металлопроката, который представляет собой горячекатаную проволоку круглого сечения, получаемую на проволочно-сортовых заводских станах.</p>
+
+											<p>Тип профиля: гладкий, периодический. Материал применяется для армирования железобетонных конструкций, при строительстве зданий и сооружений монолитного и моно-каркасного випа, для стен, пола, перекрытий.</p>
+
+											<p>В сортаменте компании «СтальИнтех» представлена продукция разных технических характеристик, механических показателей и длины. Весь товар соответствует ГОСТу и требованиям, предъявляемым к классам А1 и А3.</p>
+										</div>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="products">
+								<div class="block_title">
+									<a href="/">Арматура строительная А3</a>
+								</div>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Наименование: Арматура А3</th>
+											<th>Размер</th>
+											<th>Цена</th>
+											<th><a href="/" class="price_link">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_exel"></use></svg>
+												<span>прайс</span>
+											</a></th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td class="name">Катанка 5,5 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>35 400</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="name">Катанка 6,5 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>32 200</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="name">Катанка 8 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>34 780</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="name">Катанка 10 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>35 250</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<a href="/" class="more_link">Показать больше</a>
+							</section>
+
+
+							<section class="products">
+								<div class="block_title">
+									<a href="/">Арматура гладкая А1</a>
+								</div>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Наименование: Арматура А1</th>
+											<th>Размер</th>
+											<th>Цена</th>
+											<th><a href="/" class="price_link">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_exel"></use></svg>
+												<span>прайс</span>
+											</a></th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td class="name">Катанка 5,5 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>35 400</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="name">Катанка 6,5 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>32 200</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="name">Катанка 8 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>34 780</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="name">Катанка 10 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>35 250</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<a href="/" class="more_link">Показать больше</a>
+							</section>
+
+
+							<section class="products">
+								<div class="block_title">
+									<a href="/">Катанка</a>
+								</div>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Наименование: Арматура А1</th>
+											<th>Размер</th>
+											<th>Цена</th>
+											<th><a href="/" class="price_link">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_exel"></use></svg>
+												<span>прайс</span>
+											</a></th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td class="name">Катанка 5,5 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>35 400</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="name">Катанка 6,5 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>32 200</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="name">Катанка 8 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>34 780</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+
+										<tr>
+											<td class="name">Катанка 10 мм</td>
+
+											<td class="size" data-column="Размер">Бухта</td>
+
+											<td class="price" data-column="Цена">
+												<b>35 250</b> <span class="currency">i</span>/т.
+											</td>
+
+											<td class="buy">
+												<button class="buy_btn">
+													<svg class="icon"><use xlink:href="images/sprite.svg#ic_to_cart"></use></svg>
+													<span>В корзину</span>
+												</button>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+
+								<a href="/" class="more_link">Показать больше</a>
+							</section>
+
+
+							<section class="advantages">
+								<div class="row">
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage1.svg" alt="" class="lozad">
+										</div>
+										<div>Собственное<br> производство</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage2.svg" alt="" class="lozad">
+										</div>
+										<div>Собственный<br> склад</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage3.svg" alt="" class="lozad">
+										</div>
+										<div>Оперативная<br> доставка</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage4.svg" alt="" class="lozad">
+										</div>
+										<div>10000 видов<br> продукции</div>
+									</div>
+
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage5.svg" alt="" class="lozad">
+										</div>
+										<div>Грамотная<br> консультация</div>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="action_form">
+								<div class="title">Оставить заявку</div>
+
+								<form action="" class="form">
+									<div class="columns">
+										<div class="line">
+											<div class="label">Имя <span class="required">*</span></div>
+
+											<div class="field">
+												<input type="text" name="" value="" class="input">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="label">E-mail <span class="required">*</span></div>
+
+											<div class="field">
+												<input type="email" name="" value="" class="input input_email">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_email2"></use></svg>
+											</div>
+										</div>
+									</div>
+
+									<div class="line">
+										<div class="label">Дополнительные комментарии:</div>
+
+										<div class="field">
+											<textarea name=""></textarea>
+										</div>
+									</div>
+
+									<div class="bottom">
+										<div class="exp">
+											<span class="required">*</span>
+											– Звездочкой отмечены обязательные поля
+										</div>
+
+										<div class="submit">
+											<button type="submit" class="submit_btn">оформить</button>
+										</div>
+									</div>
+								</form>
+							</section>
+						</section>
+					</div>
+				</section>
+
+
+				<section class="partners block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title mini">Партнеры и поставщики</div>
+						</div>
+
+						<div class="slider owl-carousel">
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo2.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo3.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo4.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo5.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo2.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo3.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo4.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo5.png" alt="" class="lozad">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo2.png" alt="">
+							</div>
+
+							<div class="phone">
+								<a href="tel:+74959891820">+7 (495) 989-1820</a>
+							</div>
+
+							<button class="callback_btn modal_link" data-content="#callback_modal">Заказать звонок</button>
+						</div>
+
+						<div class="contacts">
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon ic_viber"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon ic_telegram"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon ic_whatsapp"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								</a>
+							</div>
+
+							<div class="email">
+								<a href="emilto:info@steelintech.ru">info@steelintech.ru</a>
+							</div>
+
+							<div class="address">
+								<div class="name">Адрес:</div>
+								<div class="val">г. Москва, Рязанский проспект д. 8А, с.1</div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="col">
+								<div><a href="/">О компании</a></div>
+								<div><a href="/">Каталог</a></div>
+								<div><a href="/">Услуги</a></div>
+								<div><a href="/">Производство</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+
+							<div class="col">
+								<div><a href="/">Оплата</a></div>
+								<div><a href="/">Доставка</a></div>
+								<div><a href="/">Расчет веса</a></div>
+								<div><a href="/">Новости компании</a></div>
+								<div><a href="/">новости отрасли</a></div>
+							</div>
+
+							<div class="col">
+								<div><a href="/">Статьи</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="copyright">&copy; 2001-2020, СтальИнтех — Все права защищены</div>
+
+						<div class="links">
+							<div><a href="/">Политика конфиденциальности</a></div>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener nofollow">Разработка сайта — RED COMPANY</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Перезвоните мне</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line phone">
+						<div class="label">Телефон <span class="required">*</span></div>
+
+						<div class="field">
+							<div class="code">+7</div>
+							<input type="tel" name="" value="" class="input input_phone">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">Имя</div>
+
+						<div class="field">
+							<input type="text" name="" value="" class="input view2" placeholder="">
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="exp">
+							<span class="required">*</span> – Звездочкой отмечены обязательные поля
+						</div>
+
+						<div class="submit">
+							<button type="submit" class="submit_btn">Отправить</button>
+						</div>
+					</div>
+
+					<div class="agree">Нажимая кнопку «Отправить», вы соглашаетесь с условиями обработки <a href="/">персональных данных</a></div>
+				</form>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

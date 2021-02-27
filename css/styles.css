@@ -4507,6 +4507,30 @@ aside .message
 /*--------------
     Products
 --------------*/
+.products .block_title
+{
+    color: #45a0e8;
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-bottom: 25px;
+}
+
+.products .block_title a
+{
+    color: currentColor;
+
+    display: inline-block;
+
+    vertical-align: top;
+}
+
+.products .block_title a:hover
+{
+    text-decoration: none;
+}
+
+
 .products table
 {
     width: 100%;
@@ -4847,6 +4871,34 @@ aside .message
     pointer-events: none;
 
     background: #c1cad4;
+}
+
+
+
+.products .more_link
+{
+    color: #1d7fcc;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+
+    display: block;
+
+    padding: 10px 20px 9px;
+
+    transition: .2s linear;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background: #c0e3ff;
+}
+
+.products .more_link:hover
+{
+    color: #fff;
+
+    background: #45a0e8;
 }
 
 
@@ -5454,6 +5506,246 @@ aside .message
 
 
 
+/*----------------
+    Error info
+----------------*/
+.error_info .cont
+{
+    position: relative;
+
+    padding-top: 136px;
+}
+
+.error_info .cont:before
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    display: block;
+
+    width: calc(100% - 40px);
+    height: 1px;
+    margin: 0 auto;
+
+    content: '';
+
+    background: #aaa;
+}
+
+
+.error_info .data
+{
+    width: 780px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.error_info .code
+{
+    margin-bottom: 40px;
+}
+
+.error_info .code img
+{
+    display: block;
+
+    max-width: 100%;
+}
+
+
+.error_info .title
+{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.error_info .desc
+{
+    font-weight: 700;
+    line-height: 24px;
+
+    margin-top: 20px;
+}
+
+
+.error_info .links
+{
+    display: flex;
+
+    margin-top: 28px;
+    margin-bottom: -10px;
+    margin-left: -20px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.error_info .links > *
+{
+    min-width: 202px;
+    max-width: calc(100% - 20px);
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.error_info .links a
+{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 32px;
+
+    display: inline-block;
+
+    height: 32px;
+    padding: 0 16px;
+
+    transition: background .2s linear;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    background: #45a0e8;
+}
+
+.error_info .links a:hover
+{
+    background: #2a82c8;
+}
+
+
+
+/*-----------------
+    Action form
+-----------------*/
+.action_form
+{
+    padding: 58px 68px;
+
+    border: 2px solid #e6f4ff;
+}
+
+
+.action_form .title
+{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+
+    margin-bottom: 35px;
+}
+
+
+.action_form .form
+{
+    --form_border_color: #f5f5f5;
+    --form_focus_color: #f5f5f5;
+    --form_bg_color: #f5f5f5;
+}
+
+.action_form .form .columns
+{
+    --form_columns_offset: 30px;
+}
+
+.action_form .form .line
+{
+    margin-bottom: 25px;
+}
+
+.action_form .form .label
+{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+
+    margin-bottom: 10px;
+}
+
+.action_form .form .label .required
+{
+    font-size: inherit;
+}
+
+.action_form .form .input
+{
+    font-size: 16px;
+
+    height: 46px;
+    padding: 0 19px;
+}
+
+.action_form .form .input.input_email,
+.action_form .form .input.input_phone
+{
+    padding-left: 46px;
+}
+
+.action_form .form .input ~ .icon
+{
+    left: 14px;
+}
+
+.action_form .form .input.input_email ~ .icon
+{
+    width: 18px;
+    height: 12px;
+}
+
+.action_form .form textarea
+{
+    font-size: 16px;
+
+    height: 146px;
+    padding: 12px 19px;
+}
+
+.action_form .form .submit
+{
+    width: auto;
+}
+
+.action_form .form .bottom
+{
+    padding-top: 15px;
+}
+
+.action_form .form .bottom .exp
+{
+    font-size: 16px;
+    font-weight: 500;
+
+    width: calc(100% - 220px);
+    max-width: calc(100% - 220px);
+    padding-left: 25px;
+}
+
+.action_form .form .exp .required
+{
+    font-size: 32px;
+}
+
+.action_form .form .submit_btn
+{
+    font-size: 16px;
+    font-weight: 600;
+
+    width: auto;
+    height: 50px;
+    padding: 0 28px;
+
+    background: #1db63a;
+}
+
+
+
 /*------------
     Footer
 ------------*/
@@ -5720,7 +6012,7 @@ footer .bottom .links a
 
 footer .bottom .links a:hover
 {
-    color: #45a0e8;
+    color: #45a0e8 !important;
 }
 
 
@@ -5735,7 +6027,21 @@ footer .creator a
 
 footer .creator a:hover
 {
-    color: #45a0e8;
+    color: #45a0e8 !important;
+}
+
+
+
+footer.light
+{
+    background: none;
+}
+
+footer.light .bottom,
+footer.light .bottom .links a,
+footer.light .creator a
+{
+    color: #232323;
 }
 
 

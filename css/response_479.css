@@ -477,6 +477,73 @@
 
 
 
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .cont
+    {
+        padding-top: 60px;
+    }
+
+    .error_info .code
+    {
+        margin-bottom: 20px;
+    }
+
+    .error_info .code img
+    {
+        height: 80px;
+    }
+
+    .error_info .title
+    {
+        font-size: 20px;
+    }
+
+    .error_info .links
+    {
+        margin-top: 25px;
+    }
+
+    .error_info .links > *
+    {
+        min-width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
+    }
+
+
+
+    /*-----------------
+        Action form
+    -----------------*/
+    .action_form
+    {
+        padding: 23px;
+    }
+
+
+    .action_form .form .bottom .exp
+    {
+        font-size: 12px;
+
+        width: 100%;
+        max-width: 100%;
+        padding-left: 20px;
+    }
+
+    .action_form .form .submit
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .action_form .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
