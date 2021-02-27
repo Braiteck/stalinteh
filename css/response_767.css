@@ -1,0 +1,1072 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+        --font_size_title_mini: 22px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header
+    {
+        padding-top: 10px;
+        padding-bottom: 12px;
+    }
+
+
+    .mob_header .logo
+    {
+        width: 125px;
+    }
+
+
+    .mob_header .phone
+    {
+        font-size: 18px;
+    }
+
+
+    .mob_header .cart
+    {
+        margin-left: 25px;
+    }
+
+    .mob_header .cart a u
+    {
+        display: none;
+    }
+
+
+    .mob_header .mob_menu_btn
+    {
+        margin-left: 15px;
+    }
+
+    .mob_header .mob_menu_btn span
+    {
+        height: 2px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .message
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 17px 22px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .cont > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .breadcrumbs .sep
+    {
+        margin: 0 8px;
+    }
+
+
+    .page_title
+    {
+        font-size: 25px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 25px;
+    }
+
+    .block_head .all_link
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-top: 2px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .errors
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 25px;
+        padding: 12px 20px;
+    }
+
+
+    .form input[type=file] + label
+    {
+        font-size: 14px;
+        line-height: 22px;
+
+        padding: 0;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        margin-bottom: 15px;
+    }
+
+
+    .text_block .message
+    {
+        padding: 21px;
+    }
+
+
+    .text_block blockquote
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        padding: 25px;
+    }
+
+
+    .text_block .columns
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .title
+    {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .main_slider .slide .desc
+    {
+        line-height: 22px;
+
+        margin-top: 30px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .cats_wall .row
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .cats_wall .row > *
+    {
+        width: calc(50% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+
+    .cats_wall .category .main
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding-right: 0;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .services .row > *
+    {
+        width: calc(50% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+
+    .services .service .name
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .tabs button
+    {
+        width: 50%;
+    }
+
+
+    .contacts_info .map_info .data
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .map_info .data .address .name
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .contacts_info .map_info .data .phone a,
+    .contacts_info .map_info .data .email a
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .contacts_info .map_info .data .phone a.big
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .contacts_info .map_info
+    {
+        min-height: 0;
+        padding-bottom: 0;
+
+        background: none;
+    }
+
+    .contacts_info .map_info .map
+    {
+        position: relative;
+
+        height: 420px;
+        margin-top: 20px;
+
+        background: #ddd;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .category .main
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        min-height: 70px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .cont .row
+    {
+        margin-left: -20px;
+    }
+
+    .articles .cont .row > *
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+    .articles .article
+    {
+        line-height: 20px;
+    }
+
+
+    .articles .section .row > *:last-child
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info table
+    {
+        margin: -15px 0;
+    }
+
+    .cart_info table thead
+    {
+        display: none;
+    }
+
+
+    .cart_info table tr
+    {
+        display: flex;
+
+        padding: 15px 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .cart_info table tr + tr
+    {
+        border-top: 1px solid #ddd;
+    }
+
+
+    .cart_info table td
+    {
+        position: relative;
+
+        display: block;
+
+        padding: 0;
+        padding-top: 20px;
+    }
+
+
+    .cart_info table td.name
+    {
+        margin-bottom: 10px;
+        padding-top: 0;
+    }
+
+    .cart_info table td.size,
+    .cart_info table td.price
+    {
+        display: flex;
+
+        width: calc((100% - 188px) / 2);
+        min-height: 55px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .cart_info table td.amount
+    {
+        width: 99px;
+        min-width: 99px;
+        padding-right: 10px;
+    }
+
+    .cart_info table td.area
+    {
+        width: 89px;
+        min-width: 89px;
+        padding-right: 0;
+    }
+
+
+    .cart_info table td:before
+    {
+        color: #000;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 15px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 20px;
+
+        content: attr(data-column);
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0;
+        text-transform: none;
+
+        opacity: .6;
+    }
+
+
+    .cart_info .bottom .checkout_btn
+    {
+        width: 100%;
+        height: 44px;
+        margin-top: 15px;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .head
+    {
+        margin-bottom: 20px;
+    }
+
+    .product_info .head .col_left
+    {
+        width: 100%;
+    }
+
+    .product_info .head .col_right
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+    .product_info .head .product_name
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .product_info .head .price
+    {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+
+    .product_info .info
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .product_info .info > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .product_info .info .status
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .product_info .info .options .field + .field
+    {
+        margin-top: 10px;
+    }
+
+    .product_info .info .options label
+    {
+        font-size: 15px;
+    }
+
+    .product_info .info .options .exp
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .product_info .info .desc
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    .product_info .info .files .file
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .product_info .info .calc_btn
+    {
+        font-size: 15px;
+
+        margin-top: 20px;
+        padding: 0 25px;
+    }
+
+
+    .product_info .description
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter form .size
+    {
+        width: calc(100% + 10px);
+        max-width: calc(100% + 10px);
+    }
+
+
+    .filter form .range
+    {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+        padding: 0 15px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products table
+    {
+        margin: -15px 0;
+    }
+
+    .products table thead
+    {
+        display: none;
+    }
+
+
+    .products table tr
+    {
+        display: flex;
+
+        padding: 15px 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .products table tr + tr
+    {
+        border-top: 1px solid #ddd;
+    }
+
+
+    .products table td
+    {
+        position: relative;
+
+        display: block;
+
+        padding: 0;
+        padding-top: 20px;
+    }
+
+
+    .products table td.name
+    {
+        margin-bottom: 10px;
+        padding-top: 0;
+    }
+
+    .products table td.size,
+    .products table td.price
+    {
+        display: flex;
+
+        width: calc((100% - 188px) / 2);
+        min-height: 55px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .products table td.amount
+    {
+        width: 99px;
+        min-width: 99px;
+        padding-right: 10px;
+    }
+
+    .products table td.area
+    {
+        width: 89px;
+        min-width: 89px;
+        padding-right: 0;
+    }
+
+
+    .products table td.buy
+    {
+        width: 188px;
+        min-width: 188px;
+        margin-top: 10px;
+        margin-left: auto;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+
+    .products table td:before
+    {
+        color: #000;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 15px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 20px;
+
+        content: attr(data-column);
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0;
+        text-transform: none;
+
+        opacity: .6;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .item
+    {
+        text-align: center;
+    }
+
+    .advantages .item .icon,
+    .advantages.big .item .icon
+    {
+        margin: 0 auto 15px;
+    }
+
+    .advantages .item .icon + div
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------------
+        Product prices
+    --------------------*/
+    .product_prices .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .product_prices table
+    {
+        margin: -15px 0;
+    }
+
+    .product_prices table thead
+    {
+        display: none;
+    }
+
+
+    .product_prices table tr
+    {
+        display: flex;
+
+        padding: 15px 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .product_prices table tr + tr
+    {
+        border-top: 1px solid #ddd;
+    }
+
+
+    .product_prices table td
+    {
+        position: relative;
+
+        display: block;
+
+        padding: 0;
+        padding-top: 20px;
+    }
+
+
+    .product_prices table td.name
+    {
+        margin-bottom: 10px;
+        padding-top: 0;
+    }
+
+    .product_prices table td.price
+    {
+        width: 50%;
+        min-width: 0;
+    }
+
+    .product_prices table td.action
+    {
+        width: 50%;
+        min-width: 0;
+        padding: 0;
+
+        align-self: center;
+    }
+
+    .product_prices table td:before
+    {
+        color: #000;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 15px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 20px;
+
+        content: attr(data-column);
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0;
+        text-transform: none;
+
+        opacity: .6;
+    }
+
+
+
+    /*----------------------
+        Product services
+    ----------------------*/
+    .product_services .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+    .product_services .text_block
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-bottom: -35px;
+        margin-left: -25px;
+    }
+
+    .steps .row:before
+    {
+        display: none;
+    }
+
+    .steps .row > *
+    {
+        width: calc(50% - 25px);
+        margin-bottom: 35px;
+        margin-left: 25px;
+    }
+
+
+    .steps .step
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .steps .step2,
+    .steps .step4
+    {
+        margin-top: 0;
+
+        order: 0;
+    }
+
+    .steps .step .icon
+    {
+        margin-top: 0;
+        margin-bottom: 23px;
+    }
+
+    .steps .step * + .icon:before
+    {
+        top: 100%;
+        bottom: auto;
+
+        border-radius: 0 0 3px 3px;
+    }
+
+    .steps .step .name
+    {
+        order: 2;
+    }
+
+    .steps .step .desc
+    {
+        order: 3;
+    }
+
+
+
+    /*---------------------
+        Product gallery
+    ---------------------*/
+    .product_gallery .slider
+    {
+        padding: 0 0 40px;
+    }
+
+
+
+    /*-------------------------
+        Product description
+    -------------------------*/
+    .product_description .text_block
+    {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .product_description .text_block ul li:before
+    {
+        top: 10px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form
+    {
+        padding: 25px;
+    }
+
+
+    .order_form .form .label
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-bottom: 6px;
+    }
+
+
+    .order_form .form input[type=file] + label
+    {
+        padding: 0;
+    }
+
+
+    .order_form .form .exp
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .order_form .form .exp .required
+    {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+
+    .order_form .form .bottom .exp
+    {
+        width: 230px;
+        max-width: calc(100% - 160px);
+    }
+
+
+    .order_form .form .bottom .submit
+    {
+        width: 140px;
+    }
+
+    .order_form .form .submit_btn
+    {
+        font-size: 14px;
+
+        height: 45px;
+        padding: 2px 20px 0;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .fancybox-slide--html
+    {
+        padding: 20px;
+    }
+
+    .fancybox-slide--html .fancybox-close-small
+    {
+        top: 22px;
+        right: 22px;
+    }
+
+
+    .modal
+    {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .modal_title
+    {
+        font-size: 17px;
+        line-height: 21px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .modal .form .label
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-bottom: 6px;
+    }
+
+
+    .modal .form .input
+    {
+        font-size: 16px;
+    }
+
+
+    .modal .form .code
+    {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+
+    .modal .form .exp
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .modal .form .exp .required
+    {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+
+    .modal .form .agree
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 25px;
+    }
+
+
+    .modal .form .bottom .exp
+    {
+        width: 230px;
+        max-width: calc(100% - 160px);
+    }
+
+
+    .modal .form .bottom .submit
+    {
+        width: 140px;
+    }
+
+    .modal .form .submit_btn
+    {
+        font-size: 14px;
+
+        height: 45px;
+        padding: 2px 20px 0;
+    }
+}

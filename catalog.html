@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#45a0e8">
+		<meta name="theme-color" content="#45a0e8">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1239.css" media="print, (max-width: 1239px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.png" alt="">
+							</a>
+
+							<div class="data">
+								<div class="flex">
+									<div class="search">
+										<form action="">
+											<input type="text" name="" value="" class="input" placeholder="я ищу">
+
+											<button type="submit" class="submit_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+											</button>
+										</form>
+									</div>
+
+									<button class="order_btn modal_link" data-content="#order_modal">отправить заявку</button>
+
+									<button class="callback_btn modal_link" data-content="#callback_modal">Перезвоните мне</button>
+
+									<div class="phone">
+										<a href="tel:+74959891820"><span>+7 (495)</span> 989-1820</a>
+									</div>
+								</div>
+
+								<div class="flex">
+									<nav class="menu">
+										<div class="item">
+											<a href="/">О компании</a>
+										</div>
+
+										<div class="item">
+											<a href="/" class="sub_link">Каталог</a>
+
+											<div class="sub_menu">
+												<div><a href="/">Черный металлопрокат</a></div>
+												<div><a href="/">Нержавеющий металлопрокат</a></div>
+												<div><a href="/">Трубы</a></div>
+												<div><a href="/">Трубопроводная арматура</a></div>
+												<div><a href="/">Листы</a></div>
+												<div><a href="/">Профнастил</a></div>
+												<div><a href="/">Металлоконструкции</a></div>
+												<div><a href="/">Металлоизделия</a></div>
+												<div><a href="/">Металлообработка</a></div>
+											</div>
+										</div>
+
+										<div class="item">
+											<a href="/">Производство</a>
+										</div>
+
+										<div class="item">
+											<a href="#" class="sub_link">Информация</a>
+
+											<div class="sub_menu">
+												<div><a href="/">Оплата и доставка</a></div>
+												<div><a href="/">расчет веса</a></div>
+												<div><a href="/">поставщикам</a></div>
+												<div><a href="/">Авиа и жд</a></div>
+												<div><a href="/">новости</a></div>
+												<div><a href="/">статьи</a></div>
+											</div>
+										</div>
+
+										<div class="item">
+											<a href="/">Контакты</a>
+										</div>
+									</nav>
+
+									<div class="cart">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										<a href="/"><u>Корзина</u> <span>(0)</span></a>
+									</div>
+
+									<div class="email">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+										<a href="emilto:info@steelintech.ru">info@steelintech.ru</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont">
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+							<img src="images/logo_mini.png" alt="">
+						</a>
+
+						<div class="phone">
+							<a href="tel:+74959891820"><span>+7 (495)</span> 989-1820</a>
+						</div>
+
+						<div class="cart">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+							<a href="/"><u>Корзина</u> <span>(0)</span></a>
+						</div>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<span class="current">Контакты</span>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="catalog block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title mini">Каталог продукции</div>
+						</div>
+
+						<div class="row">
+							<div class="category">
+								<a href="/" class="main">
+									<img data-src="images/tmp/catalog_thumb.jpg" alt="" class="lozad thumb">
+									<div class="name">Черный металлопрокат</div>
+								</a>
+
+								<div class="sub_cats">
+									<div><a href="/">Уголок</a></div>
+									<div><a href="/">Балка</a></div>
+									<div><a href="/">Швеллер</a></div>
+									<div><a href="/">Арматура</a></div>
+									<div><a href="/">Лист</a></div>
+									<div><a href="/">Труба</a></div>
+								</div>
+
+								<a href="/" class="all_link">Показать все</a>
+							</div>
+
+							<div class="category">
+								<a href="/" class="main">
+									<img data-src="images/tmp/catalog_thumb2.jpg" alt="" class="lozad thumb">
+									<div class="name">Нержавеющий металлопрокат</div>
+								</a>
+
+								<div class="sub_cats">
+									<div><a href="/">Сетка</a></div>
+									<div><a href="/">Круг</a></div>
+									<div><a href="/">Лист</a></div>
+									<div><a href="/">Труба</a></div>
+									<div><a href="/">Квадрат</a></div>
+									<div><a href="/">Уголок</a></div>
+								</div>
+
+								<a href="/" class="all_link">Показать все</a>
+							</div>
+
+							<div class="category">
+								<a href="/" class="main">
+									<img data-src="images/tmp/catalog_thumb3.jpg" alt="" class="lozad thumb">
+									<div class="name">Трубы</div>
+								</a>
+
+								<div class="sub_cats">
+									<div><a href="/">Труба ВГП</a></div>
+									<div><a href="/">Труба ГД</a></div>
+									<div><a href="/">Труба ХД</a></div>
+									<div><a href="/">Труба ЭС</a></div>
+									<div><a href="/">Труба СД</a></div>
+									<div><a href="/">Труба ДД</a></div>
+								</div>
+
+								<a href="/" class="all_link">Показать все</a>
+							</div>
+
+							<div class="category">
+								<a href="/" class="main">
+									<img data-src="images/tmp/catalog_thumb4.jpg" alt="" class="lozad thumb">
+									<div class="name">Трубопроводная арматура</div>
+								</a>
+
+								<div class="sub_cats">
+									<div><a href="/">Краны</a></div>
+									<div><a href="/">Переходы</a></div>
+									<div><a href="/">Заглушки</a></div>
+									<div><a href="/">Фланцы</a></div>
+									<div><a href="/">Отводы</a></div>
+									<div><a href="/">Тройники</a></div>
+								</div>
+
+								<a href="/" class="all_link">Показать все</a>
+							</div>
+
+							<div class="category">
+								<a href="/" class="main">
+									<img data-src="images/tmp/catalog_thumb5.jpg" alt="" class="lozad thumb">
+									<div class="name">Листы</div>
+								</a>
+
+								<div class="sub_cats">
+									<div><a href="/">В рулоне</a></div>
+									<div><a href="/">Лист оцинк</a></div>
+									<div><a href="/">Лист ХК</a></div>
+									<div><a href="/">Лист ГК</a></div>
+									<div><a href="/">Рифленый</a></div>
+									<div><a href="/">Конструкционный</a></div>
+								</div>
+
+								<a href="/" class="all_link">Показать все</a>
+							</div>
+
+							<div class="category">
+								<a href="/" class="main">
+									<img data-src="images/tmp/catalog_thumb6.jpg" alt="" class="lozad thumb">
+									<div class="name">Профнастил</div>
+								</a>
+
+								<div class="sub_cats">
+									<div><a href="/">С 8</a></div>
+									<div><a href="/">Н20</a></div>
+									<div><a href="/">НС</a></div>
+									<div><a href="/">RAL</a></div>
+									<div><a href="/">Н114</a></div>
+									<div><a href="/">Сэндвич панели</a></div>
+								</div>
+
+								<a href="/" class="all_link">Показать все</a>
+							</div>
+
+							<div class="category">
+								<a href="/" class="main">
+									<img data-src="images/tmp/catalog_thumb7.jpg" alt="" class="lozad thumb">
+									<div class="name">Металлоконструкции</div>
+								</a>
+
+								<div class="sub_cats">
+									<div><a href="/">Типовые</a></div>
+									<div><a href="/">Наши работы</a></div>
+									<div><a href="/">Кронштейны</a></div>
+									<div><a href="/">По чертежам</a></div>
+									<div><a href="/">Мачты</a></div>
+									<div><a href="/">Фермы</a></div>
+								</div>
+
+								<a href="/" class="all_link">Показать все</a>
+							</div>
+
+							<div class="category">
+								<a href="/" class="main">
+									<img data-src="images/tmp/catalog_thumb9.jpg" alt="" class="lozad thumb">
+									<div class="name">Металлообработка</div>
+								</a>
+
+								<div class="sub_cats">
+									<div><a href="/">Резка</a></div>
+									<div><a href="/">Гибка</a></div>
+									<div><a href="/">Цинк</a></div>
+									<div><a href="/">Окраска</a></div>
+									<div><a href="/">Резка газом</a></div>
+									<div><a href="/">Рубка гильотиной</a></div>
+								</div>
+
+								<a href="/" class="all_link">Показать все</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="partners block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title mini">Партнеры и поставщики</div>
+						</div>
+
+						<div class="slider owl-carousel">
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo2.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo3.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo4.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo5.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo2.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo3.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo4.png" alt="" class="lozad">
+								</div>
+							</div>
+
+							<div class="slide">
+								<div class="item">
+									<img data-src="images/tmp/partner_logo5.png" alt="" class="lozad">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo2.png" alt="">
+							</div>
+
+							<div class="phone">
+								<a href="tel:+74959891820">+7 (495) 989-1820</a>
+							</div>
+
+							<button class="callback_btn modal_link" data-content="#callback_modal">Заказать звонок</button>
+						</div>
+
+						<div class="contacts">
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon ic_viber"><use xlink:href="images/sprite.svg#ic_viber"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon ic_telegram"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow">
+									<svg class="icon ic_whatsapp"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+								</a>
+							</div>
+
+							<div class="email">
+								<a href="emilto:info@steelintech.ru">info@steelintech.ru</a>
+							</div>
+
+							<div class="address">
+								<div class="name">Адрес:</div>
+								<div class="val">г. Москва, Рязанский проспект д. 8А, с.1</div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="col">
+								<div><a href="/">О компании</a></div>
+								<div><a href="/">Каталог</a></div>
+								<div><a href="/">Услуги</a></div>
+								<div><a href="/">Производство</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+
+							<div class="col">
+								<div><a href="/">Оплата</a></div>
+								<div><a href="/">Доставка</a></div>
+								<div><a href="/">Расчет веса</a></div>
+								<div><a href="/">Новости компании</a></div>
+								<div><a href="/">новости отрасли</a></div>
+							</div>
+
+							<div class="col">
+								<div><a href="/">Статьи</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="copyright">&copy; 2001-2020, СтальИнтех — Все права защищены</div>
+
+						<div class="links">
+							<div><a href="/">Политика конфиденциальности</a></div>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener nofollow">Разработка сайта — RED COMPANY</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="modal_title">Перезвоните мне</div>
+
+			<div class="modal_data">
+				<form action="" class="form">
+					<div class="line phone">
+						<div class="label">Телефон <span class="required">*</span></div>
+
+						<div class="field">
+							<div class="code">+7</div>
+							<input type="tel" name="" value="" class="input input_phone">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="label">Имя</div>
+
+						<div class="field">
+							<input type="text" name="" value="" class="input view2" placeholder="">
+						</div>
+					</div>
+
+
+					<div class="bottom">
+						<div class="exp">
+							<span class="required">*</span> – Звездочкой отмечены обязательные поля
+						</div>
+
+						<div class="submit">
+							<button type="submit" class="submit_btn">Отправить</button>
+						</div>
+					</div>
+
+					<div class="agree">Нажимая кнопку «Отправить», вы соглашаетесь с условиями обработки <a href="/">персональных данных</a></div>
+				</form>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

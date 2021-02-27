@@ -1,0 +1,585 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .mob_header .logo
+    {
+        width: auto;
+    }
+
+    .mob_header .logo img
+    {
+        display: none;
+    }
+
+    .mob_header .logo img + img
+    {
+        display: block;
+    }
+
+
+    .mob_header .phone
+    {
+        font-size: 17px;
+    }
+
+
+    .mob_header .cart
+    {
+        margin-left: 22px;
+    }
+
+    .mob_header .cart .icon
+    {
+        margin-right: 5px;
+    }
+
+
+    .mob_header .mob_menu_btn
+    {
+        width: 46px;
+        margin-left: 10px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .field.row > *
+    {
+        width: calc(100% - 6px);
+    }
+
+    .form .field.row > * + *
+    {
+        margin-top: 6px;
+    }
+
+
+    .form .errors
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .message
+    {
+        padding: 16px;
+    }
+
+
+    .text_block blockquote
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        padding: 20px;
+    }
+
+
+    .text_block ol ul
+    {
+        padding-left: 0;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .slide .title
+    {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .cats_wall .row > *
+    {
+        width: calc(100% - 15px);
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 25px;
+    }
+
+
+    .feedback .form .field.row > *
+    {
+        width: calc(100% - 6px);
+    }
+
+    .feedback .form .field.row > * + *
+    {
+        margin-top: 6px;
+    }
+
+
+    .feedback .form .bottom .exp
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .feedback .form .bottom .submit
+    {
+        width: 100%;
+    }
+
+
+
+    /*--------------
+        Services
+    --------------*/
+    .services .row > *
+    {
+        width: calc(100% - 15px);
+    }
+
+
+    .services .service .thumb
+    {
+        padding-bottom: 40%;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .tabs button
+    {
+        width: 100%;
+        min-height: 50px;
+    }
+
+
+    .contacts_info .map_info .data .info
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .cont .row > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+    .articles .article .thumb
+    {
+        margin-bottom: 10px;
+        padding-bottom: 45%;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info table td.size,
+    .cart_info table td.price,
+    .cart_info table td.amount,
+    .cart_info table td.area
+    {
+        width: 50%;
+        min-height: 0;
+    }
+
+    .cart_info table td.amount,
+    .cart_info table td.area
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .head .product_name
+    {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+
+    .product_info .head .price
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+
+    .product_info .info .status
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .product_info .info .options label
+    {
+        font-size: 14px;
+    }
+
+    .product_info .info .options .exp
+    {
+        line-height: 20px;
+    }
+
+
+    .product_info .description
+    {
+        line-height: 20px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .filter form .range
+    {
+        flex-wrap: wrap;
+    }
+
+    .filter form .range .label
+    {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 6PX;
+    }
+
+    .filter form .range .before
+    {
+        margin-right: 6px;
+    }
+
+    .filter form .range .input
+    {
+        width: 81px;
+    }
+
+    .filter form .range .after
+    {
+        margin-left: 6px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products table td.size,
+    .products table td.price,
+    .products table td.amount,
+    .cartproductsinfo table td.area
+    {
+        width: 50%;
+        min-height: 0;
+    }
+
+    .products table td.amount,
+    .products table td.area
+    {
+        margin-top: 10px;
+    }
+
+    .products table td.buy
+    {
+        width: 100%;
+        min-width: 100%;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+
+    /*----------------------
+        Product features
+    ----------------------*/
+    .product_features
+    {
+        padding-top: 0;
+    }
+
+    .product_features .title
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*--------------------
+        Product prices
+    --------------------*/
+    .product_prices .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*----------------------
+        Product services
+    ----------------------*/
+    .product_services .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------
+        Steps
+    -----------*/
+    .steps .row
+    {
+        margin-bottom: -30px;
+        margin-left: -20px;
+    }
+
+    .steps .row > *
+    {
+        width: calc(100% - 20px);
+        margin-bottom: 30px;
+        margin-left: 20px;
+    }
+
+
+
+    /*----------------
+        Order form
+    ----------------*/
+    .order_form .form .label
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .order_form .form input[type=file] + label
+    {
+        min-height: 0;
+    }
+
+
+    .order_form .form .exp
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        padding-left: 20px;
+    }
+
+    .order_form .form .exp .required
+    {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+
+    .order_form .form .bottom .exp,
+    .order_form .form .bottom .submit
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .order_form .form .bottom .exp
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .bottom
+    {
+        text-align: center;
+    }
+
+
+    footer .col_left,
+    footer .contacts
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .logo img
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    footer .phone,
+    footer .callback_btn,
+    footer .contacts,
+    footer .email,
+    footer .address
+    {
+        margin-top: 20px;
+    }
+
+
+    footer .contacts
+    {
+        padding: 0;
+    }
+
+
+    footer .socials,
+    footer .bottom .links
+    {
+        justify-content: center;
+    }
+
+
+    footer .bottom .links,
+    footer .creator
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 30px;
+    }
+
+    .modal_title
+    {
+        padding-right: 20px;
+    }
+
+
+    .modal .form .exp
+    {
+        padding-left: 20px;
+    }
+
+    .modal .form .exp .required
+    {
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+
+    .modal .form .bottom .exp
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        margin-bottom: 20px;
+    }
+
+    .modal .form .bottom .exp,
+    .modal .form .bottom .submit
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .modal .form .agree
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        margin-top: 20px;
+    }
+}
