@@ -2442,6 +2442,72 @@ aside .message
 
 
 
+.text_block .table_wrap
+{
+    overflow: auto;
+
+    max-width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.text_block .table_wrap::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+
+    border-radius: 0;
+    background-color: #eee;
+
+    -webkit-appearance: none;
+}
+
+.text_block .table_wrap::-webkit-scrollbar-thumb
+{
+    border-radius: 0;
+    background-color: #45a0e8;
+}
+
+.text_block table
+{
+    width: 100%;
+
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    border: 1px solid #cad3da;
+}
+
+.text_block table th
+{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+    padding: 12px 20px;
+
+    text-align: left;
+    vertical-align: middle;
+
+    border-bottom: 1px solid #cad3da;
+    background: #f0f3f6;
+}
+
+.text_block table td
+{
+    padding: 12px 20px;
+
+    text-align: left;
+    vertical-align: middle;
+}
+
+.text_block table tbody tr:nth-child(2n) td
+{
+    background: #f2f6fa;
+}
+
+
+
 /*---------------
     Load more
 ---------------*/
@@ -4258,7 +4324,7 @@ aside .message
 
     display: block;
 
-    width: 89px;
+    width: 80px;
     height: 35px;
 
     transition: border-color .2s linear;
@@ -4298,7 +4364,7 @@ aside .message
     overflow: hidden;
 
     height: 45px;
-    padding: 2px 47px 0 87px;
+    padding: 2px 42px 0 92px;
 
     cursor: pointer;
     transition: .2s linear;
@@ -4363,6 +4429,12 @@ aside .message
     max-height: 240px;
 }
 
+.filter form .nice-select .list .scrollbar::-webkit-scrollbar
+{
+    width: 5px;
+    height: 5px;
+}
+
 .filter form .nice-select .list .list_item
 {
     color: #272727;
@@ -4384,9 +4456,14 @@ aside .message
 {
     position: relative;
 
-    width: 275px;
+    width: 200px;
     max-width: 100%;
     margin: -5px;
+}
+
+.filter form .size + .size
+{
+    margin-left: 10px;
 }
 
 .filter form .size .label
@@ -4418,7 +4495,7 @@ aside .message
 {
     display: flex;
 
-    margin-left: 45px;
+    margin-left: auto;
 
     justify-content: flex-start;
     align-items: center;
@@ -4454,12 +4531,14 @@ aside .message
     color: #272727;
     font-weight: 600;
 
-    margin-right: 8px;
+    margin-right: 6px;
 }
 
 .filter form .range .input
 {
-    width: 110px;
+    font-size: 13px;
+
+    width: 72px;
 
     text-align: center;
 }
@@ -4468,7 +4547,7 @@ aside .message
 {
     color: #272727;
 
-    margin-left: 8px;
+    margin-left: 6px;
 }
 
 
